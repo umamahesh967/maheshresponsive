@@ -86,6 +86,18 @@ footer h3{
 
 }
 
+.sub{
+	color : Orange;
+}
+h2{
+	font-family:sans-serif;
+	color: red;
+}
+
+.navbar-form{
+	margin-left: 20px;
+}
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -182,7 +194,10 @@ footer h3{
 		font-size: 22px;
 	}
 
-	
+	.carousel-inner{
+    	width: 100%;
+    	max-width: 768px;
+    }
 
     .smart-head{
 	font-size: 45px;
@@ -209,6 +224,10 @@ footer h3{
 		background: url('../../images/carousel33.jpg') top center no-repeat;
 	}
     
+    .carousel-inner{
+    	width: 100%;
+    	max-width: 1200px;
+    }
     
 	
 
